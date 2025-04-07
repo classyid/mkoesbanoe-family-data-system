@@ -96,7 +96,7 @@ Parameter:
 
 API key admin sudah terdefinisi di kode (`ADMIN_KEY`). Secara default, nilainya adalah:
 ```
-admin_m_koesbanoe_2025
+admin_2025
 ```
 
 Anda bisa mengubah nilai ini di bagian konfigurasi kode sebelum deploy.
@@ -105,7 +105,7 @@ Anda bisa mengubah nilai ini di bagian konfigurasi kode sebelum deploy.
 
 1. Gunakan endpoint `generate-api-key` dengan admin key:
 ```
-https://script.google.com/macros/s/[DEPLOYMENT_ID]/exec?endpoint=generate-api-key&admin_key=admin_m_koesbanoe_2025&name=Nama Pengguna&email=email@example.com
+https://script.google.com/macros/s/[DEPLOYMENT_ID]/exec?endpoint=generate-api-key&admin_key=admin_2025&name=Nama Pengguna&email=email@example.com
 ```
 
 2. API akan mengembalikan API key baru yang dapat digunakan oleh pengguna.
